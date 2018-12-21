@@ -18,3 +18,10 @@ module.exports = mongoose.model('author', AuthorSchema);
 
 // ### CAUNTION:
 // # Example of relational/sub documnet data satu document seperti author punya banyak buku
+
+// # Author
+// |-- name
+// |-- age
+// |-- books _-- title 
+//           |-- pages
+//           |-- year
